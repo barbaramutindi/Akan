@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akan Naming Scheme</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-image: url('images/artafrq.jpg');">
+      <div class="container-fluid" id="cont-background">
+          <div class="cont-header pt-3">
+              <h2 class="name">The Akan <span class="kan">Naming Calculator.</span></h2>
+          </div>
+          <div class="container pt-5" style="background-image: url('images/pic.jpg')">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about text-center text-white">
+                        <h2 class="name">The Akan Naming Practice.</h2>
+                    </div>
+                            <p class="text-white">This is a naming practice that is frequently used in Ghana, children are given their first name as a 'day name' which corresponds to the day of the week they were born.</p>
+                    </div>
+                </div>
+                <!-- End About -->
+
+                <!-- Begining of form -->
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h2 class="name">User Details</h2>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="text-white" for="year">Date:</label>
+                                    <input type="date" name="date" class="form-control date-custom" placeholder="Enter Year of Date" id="date" required>
+                                </div>
+                                <label class="text-white" for="gender">Gender:</label>
+                                <select class="form-control mb-2 select-custom" id="genders">
+                                    <option class="option-custom" value="other">Choose Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                                <button type="submit" class="btn btn-warning" onclick="submitFullNames()">Submit</button>
+                            </form>
+                            <!-- end form -->
+                        </div>
+                        <div class="card-footer">
+                            <p>Your Akan Name is: <span class="text-danger" id="result"></span></p>
+                        </div>
+                    </div>
+                    <!-- End card -->
+                </div>
+                <!-- End Col-form -->
+            </div>
+        </div>
+      </div>
+      <!-- End cont-background -->
+    <footer>
+        
+    <script src="index.js"></script>
+  </body>
+</html>
