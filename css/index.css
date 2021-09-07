@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content:center;
+    /* background-image: url("/images/artafrq.jpg"); */
+    background-size: cover;
+    align-items: center;
+}
+.container{
+    /* background-image: url("images/pic.jpg"); */
+    background-size: cover;
+    position: relative;
+    width: 700px;
+    min-height: 400px;
+    margin: 40px;
+    align-items: center;
+    border-radius: 6%;
+    
+}
+.container:before{
+    content: "";
+    position: absolute;
+    background-color:#fff;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -2;
+}
+.container:before{
+    content: "";
+    position: absolute;
+    background-color:#ffffff;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    filter: blur(40)px;
+    margin:30px;
+}
+.container h1{
+    color:white;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:20px;
+    padding:10px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 28px;
+}
+.container label{
+    font-size: 35px;
+    color:black;
+    margin-left: 35%;
+    font-weight:bold;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+
+}
+.container input{
+    font-size: 24px;
+    margin: 10 5%px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+}
+.container button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:  6px;
+    font-family: "Audiowide", sans-serif;
+}
+.container p{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    margin: 25px;
+    text-align:center;
+}
+.footer{
+    color: #fff;
+    float: bottom;
+}
+.header{
+    color:black;
+    font-size: 36px;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Yeseva One', cursive;
+}
+.name{
+    text-align: center;
+    font-size: 36px;
+    color:black;
+}
