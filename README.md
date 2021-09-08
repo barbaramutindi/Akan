@@ -14,9 +14,6 @@ This is a naming practice that is frequently used in Ghana, children are given t
 
 
 
-## Known Bugs
-
-Background Image
 
 ## Technologies Used
 
